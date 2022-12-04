@@ -11,7 +11,7 @@ public class odev_1 {
         System.out.println("Lutfen x degerini giriniz");
         int x = input.nextInt();
         double sonuc;
-        sonuc = Math.pow(1+x/n,n);
+        sonuc =(double) Math.pow(1+x/n,n);
         System.out.println(sonuc);
     }
 
